@@ -1,6 +1,6 @@
 # There is no .debuginfo for these packages
 %global debug_package %{nil}
-%undefine _disable_source_fetch
+%define _disable_source_fetch 0
 %global github_release 2021-03-15
 %global rel_tag 2021_03_15
 
