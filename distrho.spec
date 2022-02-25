@@ -219,6 +219,7 @@ drumsynth plugin
 %{_libdir}/lv2/vitalium.lv2/*
 %{_libdir}/lv2/Vitalium-unfa.lv2/*
 %{_libdir}/vst3/vitalium.vst3/*
+%{_libdir}/vst/vitalium.so
 
 %files TAL
 %doc README.md
@@ -317,7 +318,7 @@ drumsynth plugin
 %license doc/GPL.txt
 %{_libdir}/lv2/SwankyAmp.lv2/*
 %{_libdir}/vst3/SwankyAmp.vst3/*
-
+%{_libdir}/vst/SwankyAmp.so
 %files Temper
 %doc README.md
 %license doc/GPL.txt
